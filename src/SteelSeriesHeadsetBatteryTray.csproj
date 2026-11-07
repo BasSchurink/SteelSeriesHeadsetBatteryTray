@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>SteelSeriesHeadsetBatteryTray</AssemblyName>
+    <RootNamespace>SteelSeriesHeadsetBatteryTray</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PublishSingleFile>true</PublishSingleFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="HidSharp" Version="2.1.0" />
+  </ItemGroup>
+</Project>
